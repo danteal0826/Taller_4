@@ -3,11 +3,11 @@ import numpy as np
 
 #Una forma de crear arreglos ndarray es usando una lista
 
-#Crear arreglos de dos dimensiones apartir de listas
+#Usando funciones de "relleno" de arreglos
 
-miLista=[(1,3,5,7),(3,8,2,4)],[(3,8,2,4),(1,2,3,4)]
-
-miArreglo=np.array(miLista)
-print(miArreglo.ndim)
+miArreglo=np.zeros((5,4))
 print(miArreglo)
-
+miArreglo=np.ones((5,4))
+print(miArreglo)
+miArreglo=np.empty((5,4))
+print(miArreglo)
